@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Duv Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="duv">DUV</string>
+    <string name="live">LIVE</string>
+    <string name="sing_up">sing up</string>
+    <string name="login">login</string>
+    <string name="login_cap">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="skip">Skip</string>
+    <string name="find_an_event">Find an event?</string>
+    <string name="duv_live_is_the_perfect_place_where_you_can_attend_nice_events">DUV-live is the perfect place where you can attend nice events</string>
+    <string name="next">next</string>
+</resources>
