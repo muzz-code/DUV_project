@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.ebookfrenzy.duvproject.R
@@ -43,6 +44,10 @@ class LoginSignUpOptionsFragment : Fragment() {
         signUpBtn.setOnClickListener {
             findNavController().navigate(R.id.action_loginSignUpOptionsFragment_to_signUpFragment)
         }
+    }
+    override fun onResume() {
+        super.onResume()
+        requireActivity().window.statusBarColor = resources.getColor(R.color.oxblood_main)
     }
 
     override fun onDestroyView() {

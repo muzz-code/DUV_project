@@ -10,14 +10,14 @@ import androidx.viewpager.widget.PagerAdapter
 import com.ebookfrenzy.duvproject.R
 import data.OnBoardingData
 
-class OnBoardingViewPagerAdapter(private var context: Context, private var onBoardingDataList: List<OnBoardingData>)
-    : PagerAdapter() {
+class OnBoardingViewPagerAdapter(private var context: Context, private var onBoardingDataList: List<OnBoardingData>) :
+    PagerAdapter() {
     override fun isViewFromObject(view: View, `object`: Any): Boolean {
-       return view == `object`
+        return view == `object`
     }
 
     override fun getCount(): Int {
-       return onBoardingDataList.size
+        return onBoardingDataList.size
     }
 
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
@@ -25,7 +25,7 @@ class OnBoardingViewPagerAdapter(private var context: Context, private var onBoa
     }
 
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
-        val view = LayoutInflater.from(context).inflate(R.layout.find_event_fragment, null)
+        val view = LayoutInflater.from(context).inflate(R.layout.on_boarding_screen, null)
         val imageView: ImageView
         val title: TextView
         val desc: TextView

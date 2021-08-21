@@ -12,4 +12,15 @@
     <string name="find_an_event">Find an event?</string>
     <string name="duv_live_is_the_perfect_place_where_you_can_attend_nice_events">DUV-live is the perfect place where you can attend nice events</string>
     <string name="next">next</string>
+    <string name="sign_up_real">sign up</string>
+    <string name="have_an_account_login">Have an account? Login</string>
+    <string name="let_s_get_to_know_you">let\'s get to know you</string>
+    <string name="email_cannot_be_empty">Email can not be empty</string>
+    <string name="password_does_not_match">Password does not match</string>
+    <string name="confirm_password_cannot_be_empty">Confirm password cannot be empty</string>
+    <string name="pasword_cannot_be_empty">Password cannot be empty</string>
+    <string name="phone_number_cannot_be_empty">Phone number cannot be empty</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="minimum_of_5_xter">Minimum of 5 characters</string>
 </resources>

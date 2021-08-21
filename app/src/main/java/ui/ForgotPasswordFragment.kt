@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
+import com.ebookfrenzy.duvproject.R
 import com.ebookfrenzy.duvproject.databinding.ForgotPasswordFragmentBinding
 
 class ForgotPasswordFragment : Fragment() {
@@ -17,7 +18,7 @@ class ForgotPasswordFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
     }
 
     override fun onCreateView(
@@ -38,6 +39,11 @@ class ForgotPasswordFragment : Fragment() {
 // //            findNavController().navigate(R.id.)
 // //        }
 //    }
+
+    override fun onResume() {
+        super.onResume()
+        requireActivity().window.statusBarColor = resources.getColor(R.color.white)
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()

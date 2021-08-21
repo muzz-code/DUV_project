@@ -7,9 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="oxblood_main">#570808</color>
+    <color name="oxblood_main">#400606</color>
     <color name="red">#FF0000</color>
     <color name="text_gray">#ADBACD</color>
     <color name="bold_gray">#506992</color>
     <color name="deep_sky_blue">#0066F5</color>
+    <color name="input_text_oxblood">#5c0e0e</color>
 </resources>

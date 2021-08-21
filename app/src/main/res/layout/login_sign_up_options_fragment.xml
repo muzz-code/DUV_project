@@ -51,13 +51,12 @@
 
     <Button
         android:id="@+id/login_sign_up_options_fragment_sign_up_button"
-        style="@style/login_sign_up_fragment_sign_up_button"
+        style="@style/white_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_login_sign_up_fragment_sign_up_button"
         android:fontFamily="@font/poppins_semibold"
-        android:paddingVertical="@dimen/margin_9dp"
-        android:text="@string/sing_up"
+        android:text="@string/sign_up_real"
         android:textColor="@color/oxblood_main"
         app:layout_constraintEnd_toEndOf="@+id/login_fragment_duv_logo_image_view"
         app:layout_constraintHorizontal_bias="0.496"
@@ -66,10 +65,9 @@
 
     <Button
         android:id="@+id/login_sign_up_options_fragment_login_button"
-        style="@style/login_sign_up_fragment_login_button"
+        style="@style/sign_up_option_oxblood_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="@dimen/margin_14dp"
         android:text="@string/login"
         app:layout_constraintEnd_toEndOf="@+id/login_sign_up_options_fragment_sign_up_button"
         app:layout_constraintHorizontal_bias="0.0"
