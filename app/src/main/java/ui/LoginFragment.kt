@@ -1,6 +1,7 @@
 package ui
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
@@ -14,6 +15,7 @@ import android.text.style.StyleSpan
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -21,10 +23,12 @@ import androidx.navigation.fragment.findNavController
 import com.ebookfrenzy.duvproject.R
 import com.ebookfrenzy.duvproject.databinding.LoginFragmentBinding
 import com.readystatesoftware.systembartint.SystemBarTintManager
+import ui.entertainer.EntertainerDashboardActivity
 
 class LoginFragment : Fragment() {
     private lateinit var forgotPasswordTextKey: TextView
     private lateinit var createAnAccountTextView: TextView
+    private lateinit var loginBtn: Button
 
     private var _binding: LoginFragmentBinding? = null
     private val binding get() = _binding!!
@@ -51,6 +55,7 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        loginBtn = binding.loginFragmentLoginButton
         createAnAccountTextView = binding.loginFragmentNotRegisteredCreateAccountTextView
         forgotPasswordTextKey = binding.loginFragmentForgotPasswordTextView
         forgotPasswordTextKey.setOnClickListener {
@@ -68,6 +73,11 @@ class LoginFragment : Fragment() {
 // enable status bar tint
         mTintManager.isStatusBarTintEnabled = true
         mTintManager.setTintColor(resources.getColor(R.color.oxblood_main))
+
+        loginBtn.setOnClickListener {
+            val intent = Intent(requireActivity(), EntertainerDashboardActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     // styling my text view with a spannable

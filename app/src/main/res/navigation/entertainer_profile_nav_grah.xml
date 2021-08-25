@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/entertainer_profile_nav_grah"
+    app:startDestination="@id/entertainerDashboardActivity">
+
+    <activity
+        android:id="@+id/entertainerDashboardActivity"
+        android:name="ui.entertainer.EntertainerDashboardActivity"
+        android:label="activity_entertainer_dashboard"
+        tools:layout="@layout/entertainer_dashboard_activity" />
+</navigation>
