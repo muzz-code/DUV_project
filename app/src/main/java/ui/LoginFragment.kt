@@ -23,7 +23,7 @@ import androidx.navigation.fragment.findNavController
 import com.ebookfrenzy.duvproject.R
 import com.ebookfrenzy.duvproject.databinding.LoginFragmentBinding
 import com.readystatesoftware.systembartint.SystemBarTintManager
-import ui.entertainer.EntertainerDashboardActivity
+import ui.client.EntertainerActivity
 
 class LoginFragment : Fragment() {
     private lateinit var forgotPasswordTextKey: TextView
@@ -75,7 +75,7 @@ class LoginFragment : Fragment() {
         mTintManager.setTintColor(resources.getColor(R.color.oxblood_main))
 
         loginBtn.setOnClickListener {
-            val intent = Intent(requireActivity(), EntertainerDashboardActivity::class.java)
+            val intent = Intent(requireActivity(), EntertainerActivity::class.java)
             startActivity(intent)
         }
     }

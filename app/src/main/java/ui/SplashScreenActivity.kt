@@ -20,7 +20,7 @@ class SplashScreenActivity : AppCompatActivity() {
         GlobalScope.launch {
             delay(1000L)
             withContext(Dispatchers.Main) {
-               val intent = Intent(this@SplashScreenActivity, OnBoardingActivity::class.java)
+                val intent = Intent(this@SplashScreenActivity, OnBoardingActivity::class.java)
                 startActivity(intent)
             }
         }

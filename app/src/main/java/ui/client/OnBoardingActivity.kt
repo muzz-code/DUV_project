@@ -13,7 +13,6 @@ import data.OnBoardingData
 import ui.AuthenticationActivity
 import util.ResourceDummyData
 
-
 class OnBoardingActivity : AppCompatActivity() {
     private lateinit var skipClick: TextView
     private lateinit var sliderDot: TabLayout
@@ -38,7 +37,7 @@ class OnBoardingActivity : AppCompatActivity() {
         skipClick = binding.onBoardingActivitySkipTextView
 
         skipClick.setOnClickListener {
-            val intent = Intent(this,AuthenticationActivity::class.java)
+            val intent = Intent(this, AuthenticationActivity::class.java)
             startActivity(intent)
         }
 
@@ -46,6 +45,8 @@ class OnBoardingActivity : AppCompatActivity() {
          in the data to my data to my view pager adapter class locally*/
         val onBoardingData = ResourceDummyData.listOfOnBoardingData()
         setOnBoardingViewPagerAdapter(onBoardingData)
+
+        supportActionBar?.hide()
     }
 
     // create a function outside the onCreate to bind the variables to the actual views

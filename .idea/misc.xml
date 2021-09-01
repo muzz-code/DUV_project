@@ -3,15 +3,52 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2796296296296296" />
+        <entry key="app/src/main/res/drawable/arrow_down.xml" value="0.2611111111111111" />
+        <entry key="app/src/main/res/drawable/arrow_right.xml" value="0.2726027397260274" />
+        <entry key="app/src/main/res/drawable/avatar.xml" value="0.2611111111111111" />
+        <entry key="app/src/main/res/drawable/bottom_nav_event_icon.xml" value="0.2611111111111111" />
+        <entry key="app/src/main/res/drawable/bottom_nav_home_icon.xml" value="0.26851851851851855" />
+        <entry key="app/src/main/res/drawable/bottom_nav_media_icon.xml" value="0.26851851851851855" />
+        <entry key="app/src/main/res/drawable/bottom_nav_settings_icon.xml" value="0.26851851851851855" />
+        <entry key="app/src/main/res/drawable/camera_icon.xml" value="0.2611111111111111" />
+        <entry key="app/src/main/res/drawable/camera_icon_background.xml" value="0.2564814814814815" />
+        <entry key="app/src/main/res/drawable/custom_edit_text_input.xml" value="0.26851851851851855" />
+        <entry key="app/src/main/res/drawable/emergency_contact.xml" value="0.2726027397260274" />
         <entry key="app/src/main/res/drawable/entertainer_avatar.xml" value="0.2726027397260274" />
+        <entry key="app/src/main/res/drawable/google_icon_background.xml" value="0.2564814814814815" />
+        <entry key="app/src/main/res/drawable/mini_avatar.xml" value="0.25277777777777777" />
+        <entry key="app/src/main/res/drawable/notification_bell_icon.xml" value="0.25277777777777777" />
+        <entry key="app/src/main/res/layout/account_details_dialog.xml" value="0.262037037037037" />
         <entry key="app/src/main/res/layout/activity_entertainer_dashboard.xml" value="0.24953703703703703" />
+        <entry key="app/src/main/res/layout/activity_user.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/app_bar_user.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/appbar.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/authentication_activity.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/content_user.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/emergency_contact_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/entertainer_dashboard_activity.xml" value="0.12782294489611562" />
         <entry key="app/src/main/res/layout/entertainer_fragment.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/entertainer_profile_fragment.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_edit_profile.xml" value="0.24953703703703703" />
         <entry key="app/src/main/res/layout/fragment_emergency_contact.xml" value="0.24953703703703703" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/fragment_invite_friends.xml" value="0.262037037037037" />
         <entry key="app/src/main/res/layout/fragment_sign_up_congratulations.xml" value="0.13935185185185187" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.262037037037037" />
         <entry key="app/src/main/res/layout/login_fragment.xml" value="0.12782294489611562" />
-        <entry key="app/src/main/res/layout/nav_header.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/login_sign_up_options_fragment.xml" value="0.12782294489611562" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/nav_header_user.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/layout/on_boarding_activity.xml" value="0.12782294489611562" />
         <entry key="app/src/main/res/layout/sign_up_fragment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/splash_screen_activity.xml" value="0.12782294489611562" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.262037037037037" />
         <entry key="app/src/main/res/menu/nav_menu.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/menu/user.xml" value="0.262037037037037" />
       </map>
     </option>
   </component>

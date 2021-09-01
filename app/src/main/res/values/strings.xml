@@ -34,4 +34,29 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="invite_friends">Invite Friends</string>
     <string name="logout">Logout</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="relationship">Relationship</string>
+    <string name="professional_contact">Professional contact</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update_profile">Update profile</string>
+    <string name="hello_john">Hello, John</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="bank_account_details">Bank Account Details</string>
+    <string name="continue_setup">Continue SetUp</string>
 </resources>

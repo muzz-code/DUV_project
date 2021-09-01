@@ -7,16 +7,17 @@
     android:layout_height="match_parent"
     tools:context="ui.entertainer.EntertainerDashboardActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-   <FrameLayout
-       android:id="@+id/entertainer_dashboard_frame_layout"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"/>
+       <fragment
+           android:id="@+id/fragmentContainerView"
+           android:name="androidx.navigation.fragment.NavHostFragment"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:defaultNavHost="true"
+           app:navGraph="@navigation/entertainer_profile_nav_grah" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include
+        layout="@layout/app_bar_user"/>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/entertainer_dashboard_nav_view_layout"
@@ -26,5 +27,6 @@
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/nav_menu"
         android:fitsSystemWindows="true"/>
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

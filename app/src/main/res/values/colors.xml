@@ -11,6 +11,9 @@
     <color name="red">#FF0000</color>
     <color name="text_gray">#ADBACD</color>
     <color name="bold_gray">#506992</color>
+    <color name="status_bar_oxblood">#e76464</color>
     <color name="deep_sky_blue">#0066F5</color>
     <color name="input_text_oxblood">#5c0e0e</color>
+    <color name="background_gray">#E5E5E5</color>
+    <color name="my_background_gray">#f4f3f1</color>
 </resources>

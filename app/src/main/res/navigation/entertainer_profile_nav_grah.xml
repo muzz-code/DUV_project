@@ -3,11 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/entertainer_profile_nav_grah"
-    app:startDestination="@id/entertainerDashboardActivity">
+    app:startDestination="@id/dashboardFragment">
 
-    <activity
-        android:id="@+id/entertainerDashboardActivity"
-        android:name="ui.entertainer.EntertainerDashboardActivity"
-        android:label="activity_entertainer_dashboard"
-        tools:layout="@layout/entertainer_dashboard_activity" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="ui.entertainer.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/emergencyContactFragment"
+        android:name="ui.entertainer.EmergencyContactFragment"
+        android:label="emergency_contact_fragment"
+        tools:layout="@layout/emergency_contact_fragment" />
+    <fragment
+        android:id="@+id/entertainerProfileFragment"
+        android:name="ui.entertainer.EntertainerProfileFragment"
+        android:label="entertainer_profile_fragment"
+        tools:layout="@layout/entertainer_profile_fragment" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="ui.entertainer.EditProfileFragment"
+        android:label="EditProfileFragment"
+        tools:layout="@layout/fragment_edit_profile"/>
 </navigation>
