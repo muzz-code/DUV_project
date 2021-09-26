@@ -16,4 +16,6 @@
     <color name="input_text_oxblood">#5c0e0e</color>
     <color name="background_gray">#E5E5E5</color>
     <color name="my_background_gray">#f4f3f1</color>
+    <color name="light_gray">#C4C4C4</color>
+    <color name="light_oxblood">#584343</color>
 </resources>

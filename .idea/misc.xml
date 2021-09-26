@@ -4,6 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2796296296296296" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/drawable/edit_text_background.xml" value="0.25925925925925924" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/drawable/ic_email.xml" value="0.1638888888888889" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/account_details_dialog.xml" value="0.2907692307692308" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/activity_user.xml" value="0.1728395061728395" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/activity_user_account.xml" value="0.1" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/app_bar_user.xml" value="0.1" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/content_user.xml" value="0.1" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/fragment_dashboard.xml" value="0.24166666666666667" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/fragment_notifications.xml" value="0.2907692307692308" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/main_activity.xml" value="0.2907692307692308" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/layout/nav_header.xml" value="0.2907692307692308" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3098958333333333" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/menu/nav_menu.xml" value="0.3098958333333333" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/menu/user_account.xml" value="0.2907692307692308" />
+        <entry key="../../Dropbox/Mac/Desktop/DUV_project/app/src/main/res/menu/user_account_nav_menu.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/arrow_down.xml" value="0.2611111111111111" />
         <entry key="app/src/main/res/drawable/arrow_right.xml" value="0.2726027397260274" />
         <entry key="app/src/main/res/drawable/avatar.xml" value="0.2611111111111111" />

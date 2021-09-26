@@ -59,4 +59,14 @@
     <string name="emergency_contact">Emergency Contact</string>
     <string name="bank_account_details">Bank Account Details</string>
     <string name="continue_setup">Continue SetUp</string>
+    <string name="title_activity_user_account">UserAccountActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="you_have_no_upcoming_events">You have no Upcoming Events</string>
+
+    <string-array name="recommendation_array">
+        <item>Select Relationship</item>
+        <item>Entertainer</item>
+    </string-array>
 </resources>

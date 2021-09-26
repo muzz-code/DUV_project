@@ -1,6 +1,7 @@
 package ui.client
 
 import android.app.Dialog
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.Window
@@ -18,6 +19,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import com.ebookfrenzy.duvproject.R
 import com.ebookfrenzy.duvproject.databinding.ActivityUserBinding
 import com.google.android.material.navigation.NavigationView
+import ui.UserAccountActivity
 
 class EntertainerActivity : AppCompatActivity() {
 
@@ -75,6 +77,11 @@ class EntertainerActivity : AppCompatActivity() {
                 }
                 R.id.nav_youtube_channel -> {
                     Toast.makeText(this, "youtube Channel", Toast.LENGTH_SHORT).show()
+                    return@setNavigationItemSelectedListener true
+                }
+                R.id.nav_switch_user -> {
+                    val intent = Intent(this, UserAccountActivity::class.java)
+                    startActivity(intent)
                     return@setNavigationItemSelectedListener true
                 }
                 else -> return@setNavigationItemSelectedListener true
