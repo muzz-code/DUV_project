@@ -64,6 +64,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="you_have_no_upcoming_events">You have no Upcoming Events</string>
+    <string name="no_request_found_nyou_can_create_a_new_nrequest_after_adding_a_nnew_event">No Request Found.\nYou can create a new \nRequest after adding a \nnew Event</string>
 
     <string-array name="recommendation_array">
         <item>Select Relationship</item>

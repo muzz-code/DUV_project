@@ -23,6 +23,8 @@ class UserAccountActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityUserAccountBinding
     private lateinit var appBarConfiguration: AppBarConfiguration
+    private lateinit var listener: NavController.OnDestinationChangedListener
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -85,6 +87,16 @@ class UserAccountActivity : AppCompatActivity() {
                     drawerLayout.closeDrawer(GravityCompat.START)
                     return@setNavigationItemSelectedListener true
                 }
+                R.id.requestsFragment -> {
+                    findNavController(R.id.nav_host_fragment_activity_user_account).navigate(R.id.requestsFragment)
+                    drawerLayout.closeDrawer(GravityCompat.START)
+                    return@setNavigationItemSelectedListener true
+                }
+                R.id.myEventsFragment -> {
+                    findNavController(R.id.nav_host_fragment_activity_user_account).navigate(R.id.myEventsFragment)
+                    drawerLayout.closeDrawer(GravityCompat.START)
+                    return@setNavigationItemSelectedListener true
+                }
                 else -> return@setNavigationItemSelectedListener true
             }
         }
@@ -95,5 +107,16 @@ class UserAccountActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
+//    fun onDestinationChangedListener(){
+//        listener = NavController.OnDestinationChangedListener{controller, destination, arguments -> {
+//            when(destination.id) {
+//                R.id.dashboardFragment -> {
+//
+//                }
+//            }
+//
+//            }
+//        })
+//    }
 
 }
