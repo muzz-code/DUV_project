@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DuvProject">
         <activity
+            android:name="ui.UserAccountActivity"
+            android:exported="true"
+            android:label="@string/title_activity_user_account"
+            android:theme="@style/Theme.DuvProject.NoActionBar" />
+        <activity
+            android:name=".UserAccountActivity"
+            android:exported="true"
+            android:label="@string/title_activity_user_account"
+            android:theme="@style/Theme.DuvProject.NoActionBar" />
+        <activity
             android:name="ui.client.EntertainerActivity"
             android:exported="true"
             android:label="@string/title_activity_user"

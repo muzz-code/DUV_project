@@ -33,6 +33,15 @@
         <item name="cornerRadius">@dimen/margin_10dp</item>
     </style>
 
+    <style name="recommend_oxblood_button">
+        <item name="borderWidth">@dimen/margin_4dp</item>
+        <item name="backgroundTint">@color/oxblood_main</item>
+        <item name="android:layout_marginTop">@dimen/margin_20dp</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10dp</item>
+        <item name="cornerRadius">@dimen/margin_10dp</item>
+    </style>
+
     <style name="best_button">
         <item name="backgroundTint">@color/oxblood_main</item>
         <item name="fontFamily">@font/poppins_semibold</item>
